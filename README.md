@@ -18,6 +18,8 @@ It allows you to move the line up and down to fit the prediction with the data b
 
 <img src="Image/NN.png" width="200" class="center" />
 
+# Code: 
+
 You can run this code from your terminal/prompt/shell with typing
 ```python
 python Perceptron.py
