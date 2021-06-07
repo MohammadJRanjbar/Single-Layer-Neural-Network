@@ -6,10 +6,19 @@ The AND gate is a basic digital logic gate that implements logical conjunction -
 <img src="Image/And.png" width="300" class="center" />
 
 # Neural Network: 
-logic gates like “OR”, “AND” or “NAND” can have 0's and 1's separated by a single line
+logic gates like “OR”, “AND” or “NAND” can have 0's and 1's separated by a single line. As you can see in the picture below we have a blue and orange class which we can sperate using a single line, therefore, we use single layer neural network to implemnet this gate.
 
 <img src="Image/AB.png" width="300" class="center" />
 
-We can use a single layer neural network to implement this gate.
+in addition to the input data(A, B) We added a Bias=1 to the network, it is somehow similar to the constant b of a linear function
+
+y = ax + b
+
+It allows you to move the line up and down to fit the prediction with the data better.
 
 <img src="Image/NN.png" width="300" class="center" />
+
+You can run this code using
+```python
+python Perceptron.py
+```
